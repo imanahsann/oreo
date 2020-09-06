@@ -1,0 +1,35 @@
+//
+// Headings
+//
+
+
+//
+// Navigation
+//
+
+nav {
+    font-family: $font-family-monospace;
+}
+
+.navbar-brand {
+    font-family: $logo-font-family;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+
+//
+// Posts
+//
+
+.entry-meta, footer {
+    font-family: $font-family-monospace;
+}
+
+//
+// Footer
+//
+
+#wrapper-footer-full {
+    font-family: $font-family-monospace;
+}
