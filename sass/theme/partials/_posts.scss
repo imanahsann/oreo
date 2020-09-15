@@ -1,0 +1,21 @@
+//
+// Posts
+//
+
+.content-area {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.wp-post-image {
+    width: 100%;
+}
+
+.entry-content {
+    max-width: 795px;
+    margin: 0 auto;
+}
+
+.entry-meta, footer {
+    font-family: $font-family-monospace;
+}
