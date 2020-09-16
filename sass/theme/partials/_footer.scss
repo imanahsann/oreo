@@ -4,4 +4,61 @@
 
 #wrapper-footer-full {
     font-family: $font-family-monospace;
+    color: $secondary;
+    background: $primary;
+    font-weight: 800;
+    text-align: center;
+    & a {
+        color: $secondary;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    & p {
+        margin-bottom: 0;
+    }
+}
+
+.footer-menus {
+    margin: 0 auto;
+}
+
+.footer-menu ul, .social-menu ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.footer-menu ul li, .social-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li {
+    position: relative;
+    & a {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 30px;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        font-family: $headings-font-family;
+        font-weight: 500;
+        font-size: 1.75rem;
+        letter-spacing: 0.4px;
+        line-height: 33px;
+        &:hover {
+            font-weight: 800;
+        }
+    }
+    &:after {
+        content: '.';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &:last-child {
+        &::after {
+            content: none;
+        }
+    }
 }
